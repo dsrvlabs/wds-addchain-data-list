@@ -3,7 +3,7 @@ const path = require('path');
 const { promises: fs } = require('fs');
 
 const main = async () => {
-  const readPath = core.getInput('read-path');
+  const readPath = core.getInput('path');
   const writePath = core.getInput('write-path');
   const fullPath = path.join(process.env.GITHUB_WORKSPACE, writePath);
 

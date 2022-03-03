@@ -12,11 +12,11 @@ jobs:
         uses: actions/checkout@main
       - uses: ./
         with:
-          read-path: ethereum
-          write-path: ethereum.json
+          path: 'ethereum'
+          write-path: 'ethereum.json'
       - uses: ./
         with:
-          read-path: 'cosmos'
+          path: 'cosmos'
           write-path: 'cosmos.json'
       - name: Commit and push changes
         run: |
