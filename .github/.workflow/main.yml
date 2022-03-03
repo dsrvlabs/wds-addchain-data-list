@@ -1,0 +1,27 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: combine Chainlist JSON files
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+      - uses: ./
+        with:
+          read-path: 'ethereum'
+          write-path: 'ethereum.json'
+      - uses: ./
+        with:
+          read-path: 'cosmos'
+          write-path: 'cosmos.json'
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "${{ secrets.USER_NAME }}"
+          git config --global user.email "${{ secrets.USER_EMAIL }}"
+          git add -A
+          git commit -m "Automatic update"
+          git push

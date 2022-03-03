@@ -1,0 +1,15 @@
+{
+  "name": "dsrv-chain-list",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:dsrvlabs/dsrv-chain-list.git",
+  "author": "HeesungB <32606183+HeesungB@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@vercel/ncc": "^0.33.3"
+  },
+  "scripts": {
+    "build": "yarn ncc build src/index.js --license licenses.txt"
+  }
+}
