@@ -12,8 +12,8 @@ jobs:
         uses: actions/checkout@main
       - uses: ./
         with:
-          read-path: 'ethereum'
-          write-path: 'ethereum.json'
+          read-path: ethereum
+          write-path: ethereum.json
       - uses: ./
         with:
           read-path: 'cosmos'
