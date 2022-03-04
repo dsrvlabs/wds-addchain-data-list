@@ -1695,7 +1695,7 @@ const main = async () => {
     merge.push(json);
   }
 
-  await fs.writeFile(fullPath, JSON.stringify(merge));
+  await fs.appendFile(fullPath, JSON.stringify(merge));
 };
 
 main().catch((err) => core.setFailed(err.message));
