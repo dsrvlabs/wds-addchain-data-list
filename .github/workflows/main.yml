@@ -13,11 +13,11 @@ jobs:
       - uses: ./
         with:
           read-path: 'data/ethereum'
-          write-path: 'ethereum.json'
+          write-path: 'output/ethereum.json'
       - uses: ./
         with:
           read-path: 'data/cosmos'
-          write-path: 'cosmos.json'
+          write-path: 'output/cosmos.json'
       - name: Commit and push changes
         run: |
           git config --global user.name "${{ secrets.USER_NAME }}"
