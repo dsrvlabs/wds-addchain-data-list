@@ -20,6 +20,8 @@ const main = async () => {
     console.log(file, json);
 
     Object.assign(merge, json);
+
+    console.log('merge', merge);
   }
 
   await fs.writeFile(fullPath, JSON.stringify(merge));
