@@ -10,7 +10,7 @@ const main = async () => {
   const fullPath = path.join(process.env.GITHUB_WORKSPACE, writePath);
   console.log('fullPath', fullPath);
 
-  const merge = {};
+  let merge = {};
 
   const files = await fs.readdir(readPath, 'utf8');
 
@@ -19,7 +19,8 @@ const main = async () => {
     const json = JSON.parse(jsonFile.toString());
     console.log(file, json);
 
-    Object.assign(merge, json);
+    // Object.assign(merge, json);
+    merge = { ...merge, ...json };
 
     console.log('merge', merge);
   }
