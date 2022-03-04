@@ -1682,8 +1682,11 @@ const { promises: fs } = __nccwpck_require__(147);
 
 const main = async () => {
   const readPath = core.getInput('read-path');
+  console.log('readPath', readPath);
   const writePath = core.getInput('write-path');
+  console.log('writePath', writePath);
   const fullPath = path.join(process.env.GITHUB_WORKSPACE, writePath);
+  console.log('fullPath', fullPath);
 
   const merge = {};
 

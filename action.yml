@@ -1,7 +1,7 @@
 name: 'Chainlist Json Combine'
 description: 'combine chain json files'
 inputs:
-  path:
+  read-path:
     description: 'chain directory path'
   write-path:
     description: 'combined output path'

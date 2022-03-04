@@ -3,9 +3,12 @@ const path = require('path');
 const { promises: fs } = require('fs');
 
 const main = async () => {
-  const readPath = core.getInput('path');
+  const readPath = core.getInput('read-path');
+  console.log('readPath', readPath);
   const writePath = core.getInput('write-path');
+  console.log('writePath', writePath);
   const fullPath = path.join(process.env.GITHUB_WORKSPACE, writePath);
+  console.log('fullPath', fullPath);
 
   const merge = {};
 
