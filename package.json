@@ -10,6 +10,6 @@
     "@vercel/ncc": "^0.33.3"
   },
   "scripts": {
-    "build": "yarn ncc build src/index.js --license licenses.txt"
+    "build": "yarn ncc build index.js --license licenses.txt"
   }
 }
