@@ -1,0 +1,42 @@
+{
+  "chainId": "akashnet-2",
+  "chainName": "akash",
+  "rpc": "http://135.181.60.250:26657",
+  "rest": "http://135.181.60.250:1317",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "akash",
+    "bech32PrefixAccPub": "akashpub",
+    "bech32PrefixValAddr": "akashvaloper",
+    "bech32PrefixValPub": "akashvaloperpub",
+    "bech32PrefixConsAddr": "akashvalcons",
+    "bech32PrefixConsPub": "akashvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "uakt",
+    "coinMinimalDenom": "akt",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "uakt",
+      "coinMinimalDenom": "akt",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "uakt",
+      "coinMinimalDenom": "akt",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.01,
+    "average": 0.025,
+    "high": 0.03
+  }
+}
