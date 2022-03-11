@@ -1,0 +1,56 @@
+{
+    "chainId": "mainnet-3",
+    "chainName": "decentr",
+    "rpc": [
+        {
+            "address": "https://poseidon.mainnet.decentr.xyz",
+            "provider": "decentr"
+        },
+        {
+            "address": "https://ares.mainnet.decentr.xyz",
+            "provider": "decentr"
+        }
+    ],
+    "rest": [
+        {
+            "address": "https://rest.mainnet.decentr.xyz",
+            "provider": "decentr"
+        }
+    ],
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "decentr",
+      "bech32PrefixAccPub": "decentrpub",
+      "bech32PrefixValAddr": "decentrvaloper",
+      "bech32PrefixValPub": "decentrvaloperpub",
+      "bech32PrefixConsAddr": "decentrvalcons",
+      "bech32PrefixConsPub": "decentrvalconspub"
+    },
+    "stakeCurrency": {
+      "coinDenom": "DEC",
+      "coinMinimalDenom": "udec",
+      "coinDecimals": 6
+    },
+    "currencies": [
+      {
+        "coinDenom": "DEC",
+        "coinMinimalDenom": "udec",
+        "coinDecimals": 6
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "DEC",
+        "coinMinimalDenom": "udec",
+        "coinDecimals": 6
+      }
+    ],
+    "coinType": 118,
+    "gasPriceStep": {
+      "low": 0.025,
+      "average": 0.040,
+      "high": 0.05
+    }
+  }

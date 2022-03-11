@@ -1,8 +1,27 @@
 {
   "chainId": "akashnet-2",
   "chainName": "akash",
-  "rpc": "http://135.181.60.250:26657",
-  "rest": "http://135.181.60.250:1317",
+  "rpc": "http://akash-sentry01.skynetvalidators.com:26657",
+  "rest": [
+    {
+      "address": "http://135.181.60.250:1317"
+    },
+    {
+      "address": "http://135.181.181.120:1518"
+    },
+    {
+      "address": "http://135.181.181.119:1518"
+    },
+    {
+      "address": "http://135.181.181.121:1518"
+    },
+    {
+      "address": "http://135.181.181.122:1518"
+    },
+    {
+      "address": "http://135.181.181.123:1518"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },
@@ -15,28 +34,28 @@
     "bech32PrefixConsPub": "akashvalconspub"
   },
   "stakeCurrency": {
-    "coinDenom": "uakt",
-    "coinMinimalDenom": "akt",
+    "coinDenom": "AKT",
+    "coinMinimalDenom": "uakt",
     "coinDecimals": 6
   },
   "currencies": [
     {
-      "coinDenom": "uakt",
-      "coinMinimalDenom": "akt",
+      "coinDenom": "AKT",
+      "coinMinimalDenom": "uakt",
       "coinDecimals": 6
     }
   ],
   "feeCurrencies": [
     {
-      "coinDenom": "uakt",
-      "coinMinimalDenom": "akt",
+      "coinDenom": "AKT",
+      "coinMinimalDenom": "uakt",
       "coinDecimals": 6
     }
   ],
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.01,
-    "average": 0.025,
-    "high": 0.03
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
   }
 }

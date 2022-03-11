@@ -1,0 +1,59 @@
+{
+  "chainId": "bitcanna-1",
+  "chainName": "bitcanna",
+  "rpc": "https://rpc.bitcanna.io/",
+  "rest": [
+    {
+      "address": "https://lcd.bitcanna.io",
+      "provider": "bitcanna"
+    },
+    {
+      "address": "https://lcd.bitcanna.ezstaking.io/",
+      "provider": "ezstaking.io"
+    },
+    {
+      "address": "https://lcd-bitcanna.itastakers.com/",
+      "provider": "itastaker"
+    },
+    {
+      "address": "http://bitcanna.stakelab.fr/",
+      "provider": "stakelab"
+    }
+  ],
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bcna",
+    "bech32PrefixAccPub": "bcnapub",
+    "bech32PrefixValAddr": "bcnavaloper",
+    "bech32PrefixValPub": "bcnavaloperpub",
+    "bech32PrefixConsAddr": "bcnavalcons",
+    "bech32PrefixConsPub": "bcnavalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "BCNA",
+    "coinMinimalDenom": "ubcna",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "BCNA",
+      "coinMinimalDenom": "ubcna",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BCNA",
+      "coinMinimalDenom": "ubcna",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.001,
+    "average": 0.0025,
+    "high": 0.004
+  }
+}

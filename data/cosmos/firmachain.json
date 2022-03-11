@@ -1,0 +1,55 @@
+{
+    "chainId": "colosseum-1",
+    "chainName": "firmachain",
+    "rpc": [
+        {
+            "address": "https://lcd-mainnet.firmachain.dev:26657",
+            "provider": "FirmaChain"
+        }
+    ],
+    "rest": [
+        {
+            "address": "https://lcd-mainnet.firmachain.dev:1317",
+            "provider": "FirmaChain"
+        }
+    ],
+    "bip44": {
+      "coinType": 7777777
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "firma",
+      "bech32PrefixAccPub": "firmapub",
+      "bech32PrefixValAddr": "firmavaloper",
+      "bech32PrefixValPub": "firmavaloperpub",
+      "bech32PrefixConsAddr": "firmavalcons",
+      "bech32PrefixConsPub": "firmavalconspub"
+    },
+    "stakeCurrency": {
+      "coinDenom": "FCT",
+      "coinMinimalDenom": "ufct",
+      "coinDecimals": 6,
+      "coingecko_id": "firmachain"
+    },
+    "currencies": [
+      {
+        "coinDenom": "FCT",
+        "coinMinimalDenom": "ufct",
+        "coinDecimals": 6,
+        "coingecko_id": "firmachain"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "FCT",
+        "coinMinimalDenom": "ufct",
+        "coinDecimals": 6,
+        "coingecko_id": "firmachain"
+      }
+    ],
+    "coinType": 7777777,
+    "gasPriceStep": {
+      "low": 0.1,
+      "average": 0.25,
+      "high": 0.4
+    }
+  }

@@ -1,0 +1,52 @@
+{
+    "chainId": "cronosmainnet_25-1",
+    "chainName": "cronos",
+    "rpc": [
+        {
+          "address": "https://rpc-cronos.crypto.org/",
+          "provider": "crypto.org"
+        }
+      ],
+    "rest": [
+        {
+          "address": "https://rest-cronos.crypto.org/",
+          "provider": "crypto.org"
+        }
+      ],
+    "bip44": {
+      "coinType": 60
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "crc",
+      "bech32PrefixAccPub": "crcpub",
+      "bech32PrefixValAddr": "crcvaloper",
+      "bech32PrefixValPub": "crcvaloperpub",
+      "bech32PrefixConsAddr": "crcvalcons",
+      "bech32PrefixConsPub": "crcvalconspub"
+    },
+    "stakeCurrency": {
+      "coinDenom": "CRO",
+      "coinMinimalDenom": "basecro",
+      "coinDecimals": 18
+    },
+    "currencies": [
+      {
+        "coinDenom": "CRO",
+        "coinMinimalDenom": "basecro",
+        "coinDecimals": 18
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "CRO",
+        "coinMinimalDenom": "basecro",
+        "coinDecimals": 18
+      }
+    ],
+    "coinType": 60,
+    "gasPriceStep": {
+      "low": 0.0,
+      "average": 0.0,
+      "high": 0.0
+    }
+  }

@@ -1,0 +1,55 @@
+{
+    "chainId": "carbon-1",
+    "chainName": "cheqd",
+    "rpc": [
+        {
+            "address": "https://rpc.cheqd.net",
+            "provider": "cheqd"
+        }
+    ],
+    "rest": [
+        {
+            "address": "https://api.cheqd.net",
+            "provider": "cheqd"
+        }
+    ],
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "cheqd",
+      "bech32PrefixAccPub": "cheqdpub",
+      "bech32PrefixValAddr": "cheqdvaloper",
+      "bech32PrefixValPub": "cheqdvaloperpub",
+      "bech32PrefixConsAddr": "cheqdvalcons",
+      "bech32PrefixConsPub": "cheqdvalconspub"
+    },
+    "stakeCurrency": {
+      "coinDenom": "CHEQ",
+      "coinMinimalDenom": "ncheq",
+      "coinDecimals": 9,
+      "coingecko_id": "cheqd-network"
+    },
+    "currencies": [
+      {
+        "coinDenom": "CHEQ",
+        "coinMinimalDenom": "ncheq",
+        "coinDecimals": 9,
+        "coingecko_id": "cheqd-network"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "CHEQ",
+        "coinMinimalDenom": "ncheq",
+        "coinDecimals": 9,
+        "coingecko_id": "cheqd-network"
+      }
+    ],
+    "coinType": 118,
+    "gasPriceStep": {
+      "low": 25,
+      "average": 40,
+      "high": 60
+    }
+  }

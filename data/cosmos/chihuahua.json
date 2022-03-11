@@ -1,42 +1,55 @@
 {
-  "chainId": "chihuahua-1",
-  "chainName": "chihuahua",
-  "rpc": "https://rpc.chihuahua.wtf",
-  "rest": "https://api.chihuahua.wtf",
-  "bip44": {
-    "coinType": 118
-  },
-  "bech32Config": {
-    "bech32PrefixAccAddr": "chihuahua",
-    "bech32PrefixAccPub": "chihuahuapub",
-    "bech32PrefixValAddr": "chihuahuavaloper",
-    "bech32PrefixValPub": "chihuahuavaloperpub",
-    "bech32PrefixConsAddr": "chihuahuavalcons",
-    "bech32PrefixConsPub": "chihuahuavalconspub"
-  },
-  "stakeCurrency": {
-    "coinDenom": "HUAHUA",
-    "coinMinimalDenom": "uhuahua",
-    "coinDecimals": 6
-  },
-  "currencies": [
-    {
+    "chainId": "chihuahua-1",
+    "chainName": "chihuahua",
+    "rpc": [
+        {
+            "address": "https://rpc.chihuahua.wtf/",
+            "provider": "Chihuahua"
+        }
+    ],
+    "rest": [
+        {
+            "address": "https://api.chihuahua.wtf/",
+            "provider": "Chihuahua"
+        }
+    ],
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "chihuahua",
+      "bech32PrefixAccPub": "chihuahuapub",
+      "bech32PrefixValAddr": "chihuahuavaloper",
+      "bech32PrefixValPub": "chihuahuavaloperpub",
+      "bech32PrefixConsAddr": "chihuahuavalcons",
+      "bech32PrefixConsPub": "chihuahuavalconspub"
+    },
+    "stakeCurrency": {
       "coinDenom": "HUAHUA",
       "coinMinimalDenom": "uhuahua",
-      "coinDecimals": 6
+      "coinDecimals": 6,
+      "coingecko_id": "chihuahua-token" 
+    },
+    "currencies": [
+      {
+        "coinDenom": "HUAHUA",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coingecko_id": "chihuahua-token" 
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "HUAHUA",
+        "coinMinimalDenom": "uhuahua",
+        "coinDecimals": 6,
+        "coingecko_id": "chihuahua-token" 
+      }
+    ],
+    "coinType": 118,
+    "gasPriceStep": {
+      "low": 0.0,
+      "average": 0.0,
+      "high": 0.0
     }
-  ],
-  "feeCurrencies": [
-    {
-      "coinDenom": "HUAHUA",
-      "coinMinimalDenom": "uhuahua",
-      "coinDecimals": 6
-    }
-  ],
-  "coinType": 118,
-  "gasPriceStep": {
-    "low": 0.01,
-    "average": 0.025,
-    "high": 0.03
   }
-}
