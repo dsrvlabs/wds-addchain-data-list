@@ -1,0 +1,45 @@
+{
+  "chainId": "evmos_9001-1",
+  "chainName": "evmos",
+  "rpc": "https://tendermint.bd.evmos.org:26657",
+  "rest": "https://rest.bd.evmos.org:1317",
+  "bip44": {
+    "coinType": 60
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "evmos",
+    "bech32PrefixAccPub": "evmospub",
+    "bech32PrefixValAddr": "evmosvaloper",
+    "bech32PrefixValPub": "evmosvaloperpub",
+    "bech32PrefixConsAddr": "evmosvalcons",
+    "bech32PrefixConsPub": "evmosvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "EVMOS",
+    "coinMinimalDenom": "aevmos",
+    "coinDecimals": 18,
+    "coingecko_id": "evmos"
+  },
+  "currencies": [
+    {
+      "coinDenom": "EVMOS",
+      "coinMinimalDenom": "aevmos",
+      "coinDecimals": 18,
+      "coingecko_id": "evmos"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "EVMOS",
+      "coinMinimalDenom": "aevmos",
+      "coinDecimals": 18,
+      "coingecko_id": "evmos"
+    }
+  ],
+  "coinType": 60,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}
