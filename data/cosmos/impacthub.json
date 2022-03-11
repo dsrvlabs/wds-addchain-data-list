@@ -1,0 +1,42 @@
+{
+  "chainId": "impacthub-3",
+  "chainName": "impacthub",
+  "rpc": "https://rpc-impacthub.keplr.app",
+  "rest": "https://lcd-impacthub.keplr.app",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "ixo",
+    "bech32PrefixAccPub": "ixopub",
+    "bech32PrefixValAddr": "ixovaloper",
+    "bech32PrefixValPub": "ixovaloperpub",
+    "bech32PrefixConsAddr": "ixovalcons",
+    "bech32PrefixConsPub": "ixovalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "IXO",
+    "coinMinimalDenom": "uixo",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "IXO",
+      "coinMinimalDenom": "uixo",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "IXO",
+      "coinMinimalDenom": "uixo",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.04,
+    "high": 0.05
+  }
+}
