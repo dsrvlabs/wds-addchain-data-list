@@ -1,0 +1,45 @@
+{
+  "chainId": "injective-1",
+  "chainName": "injective",
+  "rpc": "https://injective-rpc.api.chainlayer.network/",
+  "rest": "https://public.lcd.injective.network",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "inj",
+    "bech32PrefixAccPub": "injpub",
+    "bech32PrefixValAddr": "injvaloper",
+    "bech32PrefixValPub": "injvaloperpub",
+    "bech32PrefixConsAddr": "injvalcons",
+    "bech32PrefixConsPub": "injvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "INJ",
+    "coinMinimalDenom": "uinj",
+    "coinDecimals": 6,
+    "coingecko_id": "injective-protocol"
+  },
+  "currencies": [
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "uinj",
+      "coinDecimals": 6,
+      "coingecko_id": "injective-protocol"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "INJ",
+      "coinMinimalDenom": "uinj",
+      "coinDecimals": 6,
+      "coingecko_id": "injective-protocol"
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}
