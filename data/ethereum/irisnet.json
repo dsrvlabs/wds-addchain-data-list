@@ -1,0 +1,55 @@
+{
+    "chainId": "irishub-1",
+    "chainName": "irisnet",
+    "rpc": [
+        {
+            "address": "https://rpc-iris.keplr.app",
+            "provider": "chainapsis"
+        }
+    ],
+    "rest": [
+        {
+            "address": "https://lcd-iris.keplr.app",
+            "provider": "chainapsis"
+        }
+    ],
+    "bip44": {
+      "coinType": 118
+    },
+    "bech32Config": {
+      "bech32PrefixAccAddr": "inj",
+      "bech32PrefixAccPub": "injpub",
+      "bech32PrefixValAddr": "injvaloper",
+      "bech32PrefixValPub": "injvaloperpub",
+      "bech32PrefixConsAddr": "injvalcons",
+      "bech32PrefixConsPub": "injvalconspub"
+    },
+    "stakeCurrency": {
+      "coinDenom": "IRIS",
+      "coinMinimalDenom": "uiris",
+      "coinDecimals": 6,
+      "coingecko_id": "iris-network"
+    },
+    "currencies": [
+      {
+        "coinDenom": "IRIS",
+        "coinMinimalDenom": "uiris",
+        "coinDecimals": 6,
+        "coingecko_id": "iris-network"
+      }
+    ],
+    "feeCurrencies": [
+      {
+        "coinDenom": "IRIS",
+        "coinMinimalDenom": "uiris",
+        "coinDecimals": 6,
+        "coingecko_id": "iris-network"
+      }
+    ],
+    "coinType": 118,
+    "gasPriceStep": {
+      "low": 0.0,
+      "average": 0.0,
+      "high": 0.0
+    }
+  }
