@@ -1,0 +1,45 @@
+{
+  "chainId": "darchub",
+  "chainName": "Darchub",
+  "rpc": "https://rpc-mainnet.blockchain.ki",
+  "rest": "https://api-mainnet.blockchain.ki",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "darc",
+    "bech32PrefixAccPub": "darcpub",
+    "bech32PrefixValAddr": "darcvaloper",
+    "bech32PrefixValPub": "darcvaloperpub",
+    "bech32PrefixConsAddr": "darcvalcons",
+    "bech32PrefixConsPub": "darcvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "DARC",
+    "coinMinimalDenom": "udarc",
+    "coinDecimals": 6,
+    "coingecko_id": "darcmatter-coin"
+  },
+  "currencies": [
+    {
+      "coinDenom": "DARC",
+      "coinMinimalDenom": "udarc",
+      "coinDecimals": 6,
+      "coingecko_id": "darcmatter-coin"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DARC",
+      "coinMinimalDenom": "udarc",
+      "coinDecimals": 6,
+      "coingecko_id": "darcmatter-coin"
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

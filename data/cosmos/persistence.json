@@ -1,0 +1,45 @@
+{
+  "chainId": "core-1",
+  "chainName": "Persistence",
+  "rpc": "https://rpc.core.persistence.one",
+  "rest": "https://rest.core.persistence.one",
+  "bip44": {
+    "coinType": 750
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "persistence",
+    "bech32PrefixAccPub": "persistencepub",
+    "bech32PrefixValAddr": "persistencevaloper",
+    "bech32PrefixValPub": "persistencevaloperpub",
+    "bech32PrefixConsAddr": "persistencevalcons",
+    "bech32PrefixConsPub": "persistencevalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "XPRT",
+    "coinMinimalDenom": "uxprt",
+    "coinDecimals": 6,
+    "coingecko_id": "persistence"
+  },
+  "currencies": [
+    {
+      "coinDenom": "XPRT",
+      "coinMinimalDenom": "uxprt",
+      "coinDecimals": 6,
+      "coingecko_id": "persistence"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "XPRT",
+      "coinMinimalDenom": "uxprt",
+      "coinDecimals": 6,
+      "coingecko_id": "persistence"
+    }
+  ],
+  "coinType": 750,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

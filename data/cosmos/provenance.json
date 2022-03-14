@@ -1,0 +1,42 @@
+{
+  "chainId": "pio-mainnet-1",
+  "chainName": "Provenance",
+  "rpc": "https://rpc.provenance.io/",
+  "rest": "https://api.provenance.io",
+  "bip44": {
+    "coinType": 505
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "pb",
+    "bech32PrefixAccPub": "pbpub",
+    "bech32PrefixValAddr": "pbvaloper",
+    "bech32PrefixValPub": "pbvaloperpub",
+    "bech32PrefixConsAddr": "pbvalcons",
+    "bech32PrefixConsPub": "pbvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "HASH",
+    "coinMinimalDenom": "nhash",
+    "coinDecimals": 9
+  },
+  "currencies": [
+    {
+      "coinDenom": "HASH",
+      "coinMinimalDenom": "nhash",
+      "coinDecimals": 9
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "HASH",
+      "coinMinimalDenom": "nhash",
+      "coinDecimals": 9
+    }
+  ],
+  "coinType": 505,
+  "gasPriceStep": {
+    "low": 1905,
+    "average": 2100,
+    "high": 2400
+  }
+}

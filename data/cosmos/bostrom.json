@@ -1,0 +1,42 @@
+{
+  "chainId": "bostrom",
+  "chainName": "Bostrom",
+  "rpc": "https://rpc.bostrom.cybernode.ai",
+  "rest": "https://lcd.bostrom.cybernode.ai",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bostrom",
+    "bech32PrefixAccPub": "bostrompub",
+    "bech32PrefixValAddr": "bostromvaloper",
+    "bech32PrefixValPub": "bostromvaloperpub",
+    "bech32PrefixConsAddr": "bostromvalcons",
+    "bech32PrefixConsPub": "bostromvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "BOOT",
+    "coinMinimalDenom": "boot",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "BOOT",
+      "coinMinimalDenom": "boot",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BOOT",
+      "coinMinimalDenom": "boot",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

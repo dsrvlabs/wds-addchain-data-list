@@ -1,0 +1,42 @@
+{
+  "chainId": "carbon-1",
+  "chainName": "Carbon",
+  "rpc": "https://tm-api.carbon.network",
+  "rest": "https://api.carbon.network",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "swth",
+    "bech32PrefixAccPub": "swthpub",
+    "bech32PrefixValAddr": "swthvaloper",
+    "bech32PrefixValPub": "swthvaloperpub",
+    "bech32PrefixConsAddr": "swthvalcons",
+    "bech32PrefixConsPub": "swthvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "SWTH",
+    "coinMinimalDenom": "dswth",
+    "coinDecimals": 8
+  },
+  "currencies": [
+    {
+      "coinDenom": "SWTH",
+      "coinMinimalDenom": "dswth",
+      "coinDecimals": 8
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "SWTH",
+      "coinMinimalDenom": "dswth",
+      "coinDecimals": 8
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

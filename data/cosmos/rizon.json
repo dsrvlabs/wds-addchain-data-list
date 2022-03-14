@@ -1,0 +1,42 @@
+{
+  "chainId": "titan-1",
+  "chainName": "RIZON",
+  "rpc": "http://seed-1.mainnet.rizon.world:26657",
+  "rest": "http://seed-1.mainnet.rizon.world:1317",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "rizon",
+    "bech32PrefixAccPub": "rizonpub",
+    "bech32PrefixValAddr": "rizonvaloper",
+    "bech32PrefixValPub": "rizonvaloperpub",
+    "bech32PrefixConsAddr": "rizonvalcons",
+    "bech32PrefixConsPub": "rizonvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "RIZOND",
+    "coinMinimalDenom": "urizond",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "RIZOND",
+      "coinMinimalDenom": "urizond",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "RIZOND",
+      "coinMinimalDenom": "urizond",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

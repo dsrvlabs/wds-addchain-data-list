@@ -1,0 +1,42 @@
+{
+  "chainId": "umee-1",
+  "chainName": "Umee",
+  "rpc": "https://rpc.aphrodite.main.network.umee.cc",
+  "rest": "https://api.aphrodite.main.network.umee.cc",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "umee",
+    "bech32PrefixAccPub": "umeepub",
+    "bech32PrefixValAddr": "umeevaloper",
+    "bech32PrefixValPub": "umeevaloperpub",
+    "bech32PrefixConsAddr": "umeevalcons",
+    "bech32PrefixConsPub": "umeevalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "Umee",
+    "coinMinimalDenom": "uumee",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "Umee",
+      "coinMinimalDenom": "uumee",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "Umee",
+      "coinMinimalDenom": "uumee",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

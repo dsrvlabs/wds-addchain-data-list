@@ -1,0 +1,42 @@
+{
+  "chainId": "laozi-mainnet",
+  "chainName": "Bandchain",
+  "rpc": "http://rpc.laozi1.bandchain.org:80",
+  "rest": "https://laozi1.bandchain.org/api",
+  "bip44": {
+    "coinType": 494
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "band",
+    "bech32PrefixAccPub": "bandpub",
+    "bech32PrefixValAddr": "bandvaloper",
+    "bech32PrefixValPub": "bandvaloperpub",
+    "bech32PrefixConsAddr": "bandvalcons",
+    "bech32PrefixConsPub": "bandvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "BAND",
+    "coinMinimalDenom": "uband",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "BAND",
+      "coinMinimalDenom": "uband",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BAND",
+      "coinMinimalDenom": "uband",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 494,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "chainId": "sentinelhub-2",
+  "chainName": "Sentinel",
+  "rpc": "https://rpc-sentinel.keplr.app",
+  "rest": "https://lcd-sentinel.keplr.app",
+  "bip44": {
+    "coinType": 750
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "sent",
+    "bech32PrefixAccPub": "sentpub",
+    "bech32PrefixValAddr": "sentvaloper",
+    "bech32PrefixValPub": "sentvaloperpub",
+    "bech32PrefixConsAddr": "sentvalcons",
+    "bech32PrefixConsPub": "sentvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "DVPN",
+    "coinMinimalDenom": "udvpn",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "DVPN",
+      "coinMinimalDenom": "udvpn",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "DVPN",
+      "coinMinimalDenom": "udvpn",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

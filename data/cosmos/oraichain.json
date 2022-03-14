@@ -1,0 +1,45 @@
+{
+  "chainId": "Oraichain",
+  "chainName": "Oraichain",
+  "rpc": "https://rpc.orai.io",
+  "rest": "http://lcd.orai.io",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "orai",
+    "bech32PrefixAccPub": "oraipub",
+    "bech32PrefixValAddr": "oraivaloper",
+    "bech32PrefixValPub": "oraivaloperpub",
+    "bech32PrefixConsAddr": "oraivalcons",
+    "bech32PrefixConsPub": "oraivalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "ORAI",
+    "coinMinimalDenom": "orai",
+    "coinDecimals": 6,
+    "coingecko_id": "oraichain-token"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ORAI",
+      "coinMinimalDenom": "orai",
+      "coinDecimals": 6,
+      "coingecko_id": "oraichain-token"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ORAI",
+      "coinMinimalDenom": "orai",
+      "coinDecimals": 6,
+      "coingecko_id": "oraichain-token"
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

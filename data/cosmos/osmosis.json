@@ -1,0 +1,65 @@
+{
+  "chainId": "osmosis-1",
+  "chainName": "Osmosis",
+  "rpc": "https://osmosis.validator.network",
+  "rest": "https://lcd-osmosis.blockapsis.com",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "osmo",
+    "bech32PrefixAccPub": "osmopub",
+    "bech32PrefixValAddr": "osmovaloper",
+    "bech32PrefixValPub": "osmovaloperpub",
+    "bech32PrefixConsAddr": "osmovalcons",
+    "bech32PrefixConsPub": "osmovalconspub"
+  },
+  "stakeCurrency": [
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "uosmo",
+      "coinDecimals": 6,
+      "coingecko_id": "osmosis"
+    },
+    {
+      "coinDenom": "ION",
+      "coinMinimalDenom": "uion",
+      "coinDecimals": 6,
+      "coingecko_id": "ion"
+    }
+  ],
+  "currencies": [
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "uosmo",
+      "coinDecimals": 6,
+      "coingecko_id": "osmosis"
+    },
+    {
+      "coinDenom": "ION",
+      "coinMinimalDenom": "uion",
+      "coinDecimals": 6,
+      "coingecko_id": "ion"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "OSMO",
+      "coinMinimalDenom": "uosmo",
+      "coinDecimals": 6,
+      "coingecko_id": "osmosis"
+    },
+    {
+      "coinDenom": "ION",
+      "coinMinimalDenom": "uion",
+      "coinDecimals": 6,
+      "coingecko_id": "ion"
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

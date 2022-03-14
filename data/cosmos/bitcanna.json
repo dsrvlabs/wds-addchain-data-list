@@ -1,0 +1,42 @@
+{
+  "chainId": "bitcanna-1",
+  "chainName": "Bitcanna",
+  "rpc": "https://rpc.bitcanna.io/",
+  "rest": "https://lcd.bitcanna.io",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "bcna",
+    "bech32PrefixAccPub": "bcnapub",
+    "bech32PrefixValAddr": "bcnavaloper",
+    "bech32PrefixValPub": "bcnavaloperpub",
+    "bech32PrefixConsAddr": "bcnavalcons",
+    "bech32PrefixConsPub": "bcnavalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "BCNA",
+    "coinMinimalDenom": "ubcna",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "BCNA",
+      "coinMinimalDenom": "ubcna",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "BCNA",
+      "coinMinimalDenom": "ubcna",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.001,
+    "average": 0.0025,
+    "high": 0.004
+  }
+}

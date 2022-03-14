@@ -1,0 +1,42 @@
+{
+  "chainId": "shentu-2.2",
+  "chainName": "Shentu",
+  "rpc": "https://shenturpc.certikpowered.info/",
+  "rest": "https://azuredragon.noopsbycertik.com/",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "certik",
+    "bech32PrefixAccPub": "certikpub",
+    "bech32PrefixValAddr": "certikvaloper",
+    "bech32PrefixValPub": "certikvaloperpub",
+    "bech32PrefixConsAddr": "certikvalcons",
+    "bech32PrefixConsPub": "certikvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "CTK",
+    "coinMinimalDenom": "uctk",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "CTK",
+      "coinMinimalDenom": "uctk",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "CTK",
+      "coinMinimalDenom": "uctk",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

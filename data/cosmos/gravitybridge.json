@@ -1,17 +1,8 @@
 {
   "chainId": "gravity-bridge-3",
-  "chainName": "gravitybridge",
+  "chainName": "Gravitybridge",
   "rpc": "https://gravitychain.io:26657",
-  "rest": [
-    {
-      "address": "https://gravitychain.io:1317",
-      "provider": "althea"
-    },
-    {
-      "address": "http://gravity-rpc.qwoyn.com:1317",
-      "provider": "qwoyn"
-    }
-  ],
+  "rest": "https://gravitychain.io:1317",
   "bip44": {
     "coinType": 118
   },

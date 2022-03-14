@@ -1,8 +1,8 @@
 {
   "chainId": "injective-1",
-  "chainName": "injective",
+  "chainName": "Injective",
   "rpc": "https://injective-rpc.api.chainlayer.network/",
-  "rest": "https://public.lcd.injective.network",
+  "rest": "https://injective-lcd.api.chainlayer.network/",
   "bip44": {
     "coinType": 118
   },

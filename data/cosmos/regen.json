@@ -1,0 +1,42 @@
+{
+  "chainId": "regen-1",
+  "chainName": "Regen Network",
+  "rpc": "http://public-rpc.regen.vitwit.com:26657",
+  "rest": "http://public-rpc.regen.vitwit.com:1317",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "regen",
+    "bech32PrefixAccPub": "regenpub",
+    "bech32PrefixValAddr": "regenvaloper",
+    "bech32PrefixValPub": "regenvaloperpub",
+    "bech32PrefixConsAddr": "regenvalcons",
+    "bech32PrefixConsPub": "regenvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "REGEN",
+    "coinMinimalDenom": "uregen",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "REGEN",
+      "coinMinimalDenom": "uregen",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "REGEN",
+      "coinMinimalDenom": "uregen",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "chainId": "kava-9",
+  "chainName": "Kava",
+  "rpc": "https://rpc.kava.io",
+  "rest": "https://api.data.kava.io/",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "kava",
+    "bech32PrefixAccPub": "kavapub",
+    "bech32PrefixValAddr": "kavavaloper",
+    "bech32PrefixValPub": "kavavaloperpub",
+    "bech32PrefixConsAddr": "kavavalcons",
+    "bech32PrefixConsPub": "kavavalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "KAVA",
+    "coinMinimalDenom": "ukava",
+    "coinDecimals": 6,
+    "coingecko_id": "kava"
+  },
+  "currencies": [
+    {
+      "coinDenom": "KAVA",
+      "coinMinimalDenom": "ukava",
+      "coinDecimals": 6,
+      "coingecko_id": "kava"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "KAVA",
+      "coinMinimalDenom": "ukava",
+      "coinDecimals": 6,
+      "coingecko_id": "kava"
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

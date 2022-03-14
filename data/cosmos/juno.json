@@ -1,17 +1,8 @@
 {
   "chainId": "juno-1",
-  "chainName": "juno",
+  "chainName": "Juno",
   "rpc": "https://rpc-juno.itastakers.com",
-  "rest": [
-    {
-      "address": "https://lcd-juno.itastakers.com",
-      "provider": "itastakers"
-    },
-    {
-      "address": "https://lcd.juno-1.technofractal.com/",
-      "provider": "strangelove-ventures"
-    }
-  ],
+  "rest": "https://lcd-juno.itastakers.com",
   "bip44": {
     "coinType": 118
   },

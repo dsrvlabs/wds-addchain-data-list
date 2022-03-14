@@ -1,0 +1,42 @@
+{
+  "chainId": "vidulum-1",
+  "chainName": "Vidulum",
+  "rpc": "https://mainnet-rpc.vidulum.app/",
+  "rest": "https://mainnet-lcd.vidulum.app",
+  "bip44": {
+    "coinType": 370
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "vdl",
+    "bech32PrefixAccPub": "vdlpub",
+    "bech32PrefixValAddr": "vdlvaloper",
+    "bech32PrefixValPub": "vdlvaloperpub",
+    "bech32PrefixConsAddr": "vdlvalcons",
+    "bech32PrefixConsPub": "vdlvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "VDL",
+    "coinMinimalDenom": "uvdl",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "VDL",
+      "coinMinimalDenom": "uvdl",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "VDL",
+      "coinMinimalDenom": "uvdl",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 370,
+  "gasPriceStep": {
+    "low": 0.01,
+    "average": 0.025,
+    "high": 0.03
+  }
+}

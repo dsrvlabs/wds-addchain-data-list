@@ -1,0 +1,45 @@
+{
+  "chainId": "panacea-3",
+  "chainName": "Panacea",
+  "rpc": "https://rpc.gopanacea.org",
+  "rest": "https://api.gopanacea.org",
+  "bip44": {
+    "coinType": 371
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "panacea",
+    "bech32PrefixAccPub": "panaceapub",
+    "bech32PrefixValAddr": "panaceavaloper",
+    "bech32PrefixValPub": "panaceavaloperpub",
+    "bech32PrefixConsAddr": "panaceavalcons",
+    "bech32PrefixConsPub": "panaceavalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "MED",
+    "coinMinimalDenom": "umed",
+    "coinDecimals": 6,
+    "coingecko_id": "medibloc"
+  },
+  "currencies": [
+    {
+      "coinDenom": "MED",
+      "coinMinimalDenom": "umed",
+      "coinDecimals": 6,
+      "coingecko_id": "medibloc"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "MED",
+      "coinMinimalDenom": "umed",
+      "coinDecimals": 6,
+      "coingecko_id": "medibloc"
+    }
+  ],
+  "coinType": 371,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

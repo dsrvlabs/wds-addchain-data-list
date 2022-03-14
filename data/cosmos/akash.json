@@ -1,0 +1,42 @@
+{
+  "chainId": "akashnet-2",
+  "chainName": "Akash",
+  "rpc": "http://rpc.akash.forbole.com:80",
+  "rest": "http://135.181.181.122:1518",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "akash",
+    "bech32PrefixAccPub": "akashpub",
+    "bech32PrefixValAddr": "akashvaloper",
+    "bech32PrefixValPub": "akashvaloperpub",
+    "bech32PrefixConsAddr": "akashvalcons",
+    "bech32PrefixConsPub": "akashvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "AKT",
+    "coinMinimalDenom": "uakt",
+    "coinDecimals": 6
+  },
+  "currencies": [
+    {
+      "coinDenom": "AKT",
+      "coinMinimalDenom": "uakt",
+      "coinDecimals": 6
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "AKT",
+      "coinMinimalDenom": "uakt",
+      "coinDecimals": 6
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}

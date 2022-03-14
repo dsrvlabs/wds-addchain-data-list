@@ -1,0 +1,42 @@
+{
+  "chainId": "sifchain-1",
+  "chainName": "Sifchain",
+  "rpc": "https://rpc.sifchain.finance:443",
+  "rest": "https://api.sifchain.finance:443",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "sif",
+    "bech32PrefixAccPub": "sifpub",
+    "bech32PrefixValAddr": "sifvaloper",
+    "bech32PrefixValPub": "sifvaloperpub",
+    "bech32PrefixConsAddr": "sifvalcons",
+    "bech32PrefixConsPub": "sifvalconspub"
+  },
+  "stakeCurrency": {
+    "coinDenom": "ROWAN",
+    "coinMinimalDenom": "urowan",
+    "coinDecimals": 18
+  },
+  "currencies": [
+    {
+      "coinDenom": "ROWAN",
+      "coinMinimalDenom": "urowan",
+      "coinDecimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ROWAN",
+      "coinMinimalDenom": "urowan",
+      "coinDecimals": 18
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0,
+    "average": 0.0,
+    "high": 0.0
+  }
+}
