@@ -1,5 +1,5 @@
 {
-  "chainId": "carbon-1",
+  "chainId": "cheqd-mainnet-1",
   "chainName": "Cheqd",
   "rpc": "https://rpc.cheqd.net",
   "rest": "https://api.cheqd.net",
