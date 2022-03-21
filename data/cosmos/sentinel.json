@@ -1,8 +1,25 @@
 {
   "chainId": "sentinelhub-2",
   "chainName": "Sentinel",
-  "rpc": "https://rpc-sentinel.keplr.app",
-  "rest": "https://lcd-sentinel.keplr.app",
+  "rpc": [
+    {
+      "address": "https://rpc-sentinel.keplr.app",
+      "provider": "chainapsis"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-sentinel.keplr.app",
+      "provider": "chainapsis"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Chainapsis",
+      "rpc": "https://rpc-sentinel.keplr.app",
+      "rest": "https://lcd-sentinel.keplr.app"
+    }
+  ],
   "bip44": {
     "coinType": 750
   },

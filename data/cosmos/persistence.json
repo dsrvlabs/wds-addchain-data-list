@@ -1,8 +1,25 @@
 {
   "chainId": "core-1",
   "chainName": "Persistence",
-  "rpc": "https://rpc.core.persistence.one",
-  "rest": "https://rest.core.persistence.one",
+  "rpc": [
+    {
+      "address": "https://rpc.core.persistence.one",
+      "provider": "persistence"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://rest.core.persistence.one",
+      "provider": "persistence"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.core.persistence.one",
+      "rest": "https://rest.core.persistence.one"
+    }
+  ],
   "bip44": {
     "coinType": 750
   },

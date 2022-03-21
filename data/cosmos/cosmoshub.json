@@ -1,8 +1,44 @@
 {
   "chainId": "cosmoshub-4",
   "chainName": "Cosmos Hub",
-  "rpc": "https://cosmoshub.validator.network/",
-  "rest": "https://lcd-cosmoshub.blockapsis.com",
+  "rpc": [
+    {
+      "address": "https://rpc-cosmoshub.blockapsis.com",
+      "provider": "chainapsis"
+    },
+    {
+      "address": "https://cosmoshub.validator.network/",
+      "provider": "validatornetwork"
+    },
+    {
+      "address": "https://rpc.cosmos.network:443",
+      "provider": "tendermint-inc"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-cosmoshub.blockapsis.com",
+      "provider": "chainapsis"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Chainapsis",
+      "rpc": "https://rpc-cosmoshub.blockapsis.com",
+      "rest": "https://lcd-cosmoshub.blockapsis.com"
+    },
+    {
+      "name": "Validatornetwork",
+      "rpc": "https://cosmoshub.validator.network/",
+      "rest": "https://lcd-cosmoshub.blockapsis.com"
+    },
+    {
+      "name": "Tendermint-inc",
+      "rpc": "https://rpc.cosmos.network:443",
+      "rest": "https://lcd-cosmoshub.blockapsis.com"
+    }
+  ],
+
   "bip44": {
     "coinType": 118
   },

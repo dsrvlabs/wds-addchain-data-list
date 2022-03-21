@@ -1,8 +1,25 @@
 {
   "chainId": "iov-mainnet-ibc",
   "chainName": "Starname",
-  "rpc": "https://rpc-iov.keplr.app",
-  "rest": "https://lcd-iov.keplr.app",
+  "rpc": [
+    {
+      "address": "https://rpc-iov.keplr.app",
+      "provider": "chainapsis"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-iov.keplr.app",
+      "provider": "chainapsis"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Chainapsis",
+      "rpc": "https://rpc-iov.keplr.app",
+      "rest": "https://lcd-iov.keplr.app"
+    }
+  ],
   "bip44": {
     "coinType": 234
   },

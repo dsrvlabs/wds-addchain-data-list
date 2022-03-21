@@ -1,8 +1,25 @@
 {
   "chainId": "thor-1",
   "chainName": "THORChain",
-  "rpc": "https://rpc.thorchain.info",
-  "rest": "https://thornode.thorchain.info",
+  "rpc": [
+    {
+      "address": "https://rpc.thorchain.info",
+      "provider": "thorchain"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://thornode.thorchain.info",
+      "provider": "thorchain"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.thorchain.info",
+      "rest": "https://thornode.thorchain.info"
+    }
+  ],
   "bip44": {
     "coinType": 931
   },

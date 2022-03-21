@@ -1,8 +1,47 @@
 {
   "chainId": "regen-1",
   "chainName": "Regen Network",
-  "rpc": "http://public-rpc.regen.vitwit.com:26657",
-  "rest": "http://public-rpc.regen.vitwit.com:1317",
+  "rpc": [
+    {
+      "address": "http://public-rpc.regen.vitwit.com:26657",
+      "provider": "vitwit"
+    },
+    {
+      "address": "https://regen.stakesystems.io:2053",
+      "provider": "stakesystems"
+    },
+    {
+      "address": "http://rpc.regen.forbole.com:80",
+      "provider": "forbole"
+    }
+  ],
+  "rest": [
+    {
+      "address": "http://public-rpc.regen.vitwit.com:1317",
+      "provider": "vitwit"
+    },
+    {
+      "address": "https://regen.stakesystems.io",
+      "provider": "stakesystems"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Vitwit",
+      "rpc": "http://public-rpc.regen.vitwit.com:26657",
+      "rest": "http://public-rpc.regen.vitwit.com:1317"
+    },
+    {
+      "name": "Stakesystems",
+      "rpc": "https://regen.stakesystems.io:2053",
+      "rest": "https://regen.stakesystems.io"
+    },
+    {
+      "name": "Forbole",
+      "rpc": "http://rpc.regen.forbole.com:80",
+      "rest": "http://public-rpc.regen.vitwit.com:1317"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

@@ -1,8 +1,25 @@
 {
   "chainId": "colosseum-1",
   "chainName": "firmachain",
-  "rpc": "https://lcd-mainnet.firmachain.dev:26657",
-  "rest": "https://lcd-mainnet.firmachain.dev:1317",
+  "rpc": [
+    {
+      "address": "https://lcd-mainnet.firmachain.dev:26657",
+      "provider": "FirmaChain"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-mainnet.firmachain.dev:1317",
+      "provider": "FirmaChain"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://lcd-mainnet.firmachain.dev:26657",
+      "rest": "https://lcd-mainnet.firmachain.dev:1317"
+    }
+  ],
   "bip44": {
     "coinType": 7777777
   },

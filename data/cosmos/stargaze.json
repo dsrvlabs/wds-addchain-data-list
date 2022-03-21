@@ -1,8 +1,51 @@
 {
   "chainId": "stargaze-1",
   "chainName": "Stargaze",
-  "rpc": "https://rpc.stargaze-apis.com/",
-  "rest": "https://api.stars.kingnodes.com/",
+  "rpc": [
+    {
+      "address": "https://rpc.stargaze-apis.com/",
+      "provider": "Stargaze Foundation"
+    },
+    {
+      "address": "https://rpc.stargaze.ezstaking.io/",
+      "provider": "EZStaking.io"
+    },
+    {
+      "address": "https://rpc.stars.kingnodes.com/",
+      "provider": "kingnodes"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://rest.stargaze-apis.com/",
+      "provider": "Stargaze Foundation"
+    },
+    {
+      "address": "https://api.stargaze.ezstaking.io/",
+      "provider": "EZStaking.io"
+    },
+    {
+      "address": "https://api.stars.kingnodes.com/",
+      "provider": "kingnodes"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.stargaze-apis.com/",
+      "rest": "https://rest.stargaze-apis.com/"
+    },
+    {
+      "name": "EZStaking.io",
+      "rpc": "https://rpc.stargaze.ezstaking.io/",
+      "rest": "https://api.stargaze.ezstaking.io/"
+    },
+    {
+      "name": "Kingnodes",
+      "rpc": "https://rpc.stars.kingnodes.com/",
+      "rest": "https://api.stars.kingnodes.com/"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

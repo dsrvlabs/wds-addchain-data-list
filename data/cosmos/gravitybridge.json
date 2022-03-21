@@ -1,8 +1,34 @@
 {
   "chainId": "gravity-bridge-3",
   "chainName": "Gravitybridge",
-  "rpc": "https://gravitychain.io:26657",
-  "rest": "https://gravitychain.io:1317",
+  "rpc": [
+    {
+      "address": "https://gravitychain.io:26657",
+      "provider": "althea"
+    },
+    {
+      "address": "http://gravity-bridge-1-08.nodes.amhost.net:26657",
+      "provider": "amhost"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://gravitychain.io:1317",
+      "provider": "althea"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Althea",
+      "rpc": "https://gravitychain.io:26657",
+      "rest": "https://gravitychain.io:1317"
+    },
+    {
+      "name": "Amhost",
+      "rpc": "http://gravity-bridge-1-08.nodes.amhost.net:26657",
+      "rest": "https://gravitychain.io:1317"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

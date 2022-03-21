@@ -1,8 +1,31 @@
 {
   "chainId": "sifchain-1",
   "chainName": "Sifchain",
-  "rpc": "https://rpc.sifchain.finance:443",
-  "rest": "https://api.sifchain.finance:443",
+  "rpc": [
+    {
+      "address": "https://rpc.sifchain.finance:443"
+    },
+    {
+      "address": "https://rpc-archive.sifchain.finance:443"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.sifchain.finance:443"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.sifchain.finance:443",
+      "rest": "https://api.sifchain.finance:443"
+    },
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc-archive.sifchain.finance:443",
+      "rest": "https://api.sifchain.finance:443"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

@@ -1,8 +1,25 @@
 {
   "chainId": "Oraichain",
   "chainName": "Oraichain",
-  "rpc": "https://rpc.orai.io",
-  "rest": "http://lcd.orai.io",
+  "rpc": [
+    {
+      "address": "https://rpc.orai.io",
+      "provider": "oraichain-team"
+    }
+  ],
+  "rest": [
+    {
+      "address": "http://lcd.orai.io",
+      "provider": "oraichain-team"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.orai.io",
+      "rest": "http://lcd.orai.io"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

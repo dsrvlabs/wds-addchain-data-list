@@ -1,8 +1,26 @@
 {
   "chainId": "cheqd-mainnet-1",
   "chainName": "Cheqd",
-  "rpc": "https://rpc.cheqd.net",
-  "rest": "https://api.cheqd.net",
+  "rpc": [
+    {
+      "address": "https://rpc.cheqd.net",
+      "provider": "cheqd"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.cheqd.net",
+      "provider": "cheqd"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.cheqd.net",
+      "rest": "https://api.cheqd.net"
+    }
+  ],
+
   "bip44": {
     "coinType": 118
   },

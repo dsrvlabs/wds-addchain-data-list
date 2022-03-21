@@ -1,8 +1,23 @@
 {
   "chainId": "dig-1",
   "chainName": "Dig",
-  "rpc": "https://rpc-1-dig.notional.ventures",
-  "rest": "https://api-1-dig.notional.ventures",
+  "rpc": [
+    {
+      "address": "https://rpc-1-dig.notional.ventures"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api-1-dig.notional.ventures"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc-1-dig.notional.ventures",
+      "rest": "https://api-1-dig.notional.ventures"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

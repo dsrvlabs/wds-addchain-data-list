@@ -1,8 +1,41 @@
 {
   "chainId": "akashnet-2",
   "chainName": "Akash",
-  "rpc": "http://rpc.akash.forbole.com:80",
-  "rest": "http://135.181.181.122:1518",
+  "rpc": [
+    {
+      "address": "http://rpc.akash.forbole.com:80",
+      "provider": "forbole"
+    },
+    {
+      "address": "http://akash-sentry01.skynetvalidators.com:26657",
+      "provider": "skynet"
+    },
+    {
+      "address": "http://135.181.181.122:28957"
+    }
+  ],
+  "rest": [
+    {
+      "address": "http://135.181.181.122:1518"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "http://135.181.181.122:28957",
+      "rest": "http://135.181.181.122:1518"
+    },
+    {
+      "name": "Forbole",
+      "rpc": "http://rpc.akash.forbole.com:80",
+      "rest": "http://135.181.181.122:1518"
+    },
+    {
+      "name": "Skynet",
+      "rpc": "http://akash-sentry01.skynetvalidators.com:26657",
+      "rest": "http://135.181.181.122:1518"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

@@ -1,8 +1,25 @@
 {
   "chainId": "lum-network-1",
   "chainName": "Lumnetwork",
-  "rpc": "https://node0.mainnet.lum.network/rpc",
-  "rest": "https://node0.mainnet.lum.network/rest",
+  "rpc": [
+    {
+      "address": "https://node0.mainnet.lum.network/rpc",
+      "provider": "Lum Foundation"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://node0.mainnet.lum.network/rest",
+      "provider": "Lum Foundation"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://node0.mainnet.lum.network/rpc",
+      "rest": "https://node0.mainnet.lum.network/rest"
+    }
+  ],
   "bip44": {
     "coinType": 880
   },

@@ -1,8 +1,25 @@
 {
   "chainId": "fetchhub-3",
   "chainName": "fetchhub",
-  "rpc": "https://rpc-fetchhub.fetch.ai:443",
-  "rest": "https://rest-fetchhub.fetch.ai",
+  "rpc": [
+    {
+      "address": "https://rpc-fetchhub.fetch.ai:443",
+      "provider": "fetch.ai"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://rest-fetchhub.fetch.ai",
+      "provider": "fetch.ai"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc-fetchhub.fetch.ai:443",
+      "rest": "https://rest-fetchhub.fetch.ai"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

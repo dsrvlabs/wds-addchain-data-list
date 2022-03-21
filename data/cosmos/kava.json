@@ -1,8 +1,25 @@
 {
   "chainId": "kava-9",
   "chainName": "Kava",
-  "rpc": "https://rpc.kava.io",
-  "rest": "https://api.data.kava.io/",
+  "rpc": [
+    {
+      "address": "https://rpc.kava.io",
+      "provider": "kava"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.data.kava.io/",
+      "provider": "kava"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.kava.io",
+      "rest": "https://api.data.kava.io/"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

@@ -1,8 +1,25 @@
 {
   "chainId": "bostrom",
   "chainName": "Bostrom",
-  "rpc": "https://rpc.bostrom.cybernode.ai",
-  "rest": "https://lcd.bostrom.cybernode.ai",
+  "rpc": [
+    {
+      "address": "https://rpc.bostrom.cybernode.ai",
+      "provider": "cybercongress"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd.bostrom.cybernode.ai",
+      "provider": "cybercongress"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Cybercongress",
+      "rpc": "https://rpc.bostrom.cybernode.ai",
+      "rest": "https://lcd.bostrom.cybernode.ai"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

@@ -1,8 +1,64 @@
 {
   "chainId": "impacthub-3",
   "chainName": "impacthub",
-  "rpc": "https://rpc-impacthub.keplr.app",
-  "rest": "https://lcd-impacthub.keplr.app",
+  "rpc": [
+    {
+      "address": "https://rpc-impacthub.keplr.app",
+      "provider": "chainapsis"
+    },
+    {
+      "address": "https://proxies.sifchain.finance/api/impacthub-3/rpc",
+      "provider": "sifchain"
+    },
+    {
+      "address": "http://18.220.101.192:26657/",
+      "provider": "regen"
+    },
+    {
+      "address": "https://impacthub.ixo.world/rpc/",
+      "provider": "ixoworld"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-impacthub.keplr.app",
+      "provider": "chainapsis"
+    },
+    {
+      "address": "https://proxies.sifchain.finance/api/impacthub-3/rest",
+      "provider": "sifchain"
+    },
+    {
+      "address": "http://18.220.101.192:1317/",
+      "provider": "regen"
+    },
+    {
+      "address": "https://impacthub.ixo.world/rest/",
+      "provider": "ixoworld"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Chainapsis",
+      "rpc": "https://rpc-impacthub.keplr.app",
+      "rest": "https://lcd-impacthub.keplr.app"
+    },
+    {
+      "name": "Sifchain",
+      "rpc": "https://proxies.sifchain.finance/api/impacthub-3/rpc",
+      "rest": "https://proxies.sifchain.finance/api/impacthub-3/rest"
+    },
+    {
+      "name": "Regen",
+      "rpc": "http://18.220.101.192:26657/",
+      "rest": "http://18.220.101.192:1317/"
+    },
+    {
+      "name": "Ixoworld",
+      "rpc": "https://impacthub.ixo.world/rpc/",
+      "rest": "https://impacthub.ixo.world/rest/"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

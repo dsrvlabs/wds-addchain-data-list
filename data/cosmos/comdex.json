@@ -1,8 +1,65 @@
 {
   "chainId": "comdex-1",
   "chainName": "Comdex",
-  "rpc": "https://rpc.comdex.one",
-  "rest": "https://rest.comdex.one",
+  "rpc": [
+    {
+      "address": "https://api.comdex.audit.one/rpc",
+      "provider": "audit"
+    },
+    {
+      "address": "https://rpc.comdex.one",
+      "provider": "comdex"
+    },
+    {
+      "address": "http://comdex.node.vitwit.com:26657/",
+      "provider": "vitwit"
+    },
+    {
+      "address": "https://rpc-comdex.zenchainlabs.io/",
+      "provider": "zenchainlabs"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.comdex.audit.one/rest",
+      "provider": "audit"
+    },
+    {
+      "address": "https://rest.comdex.one",
+      "provider": "comdex"
+    },
+    {
+      "address": "http://comdex.node.vitwit.com:1317/",
+      "provider": "vitwit"
+    },
+    {
+      "address": "https://api-comdex.zenchainlabs.io/",
+      "provider": "zenchainlabs"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.comdex.one",
+      "rest": "https://rest.comdex.one"
+    },
+    {
+      "name": "Audit",
+      "rpc": "https://api.comdex.audit.one/rpc",
+      "rest": "https://api.comdex.audit.one/rest"
+    },
+    {
+      "name": "Vitwit",
+      "rpc": "http://comdex.node.vitwit.com:26657/",
+      "rest": "http://comdex.node.vitwit.com:1317/"
+    },
+    {
+      "name": "Zenchainlabs",
+      "rpc": "https://rpc-comdex.zenchainlabs.io/",
+      "rest": "https://api-comdex.zenchainlabs.io/"
+    }
+  ],
+
   "bip44": {
     "coinType": 118
   },

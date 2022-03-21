@@ -1,8 +1,25 @@
 {
   "chainId": "laozi-mainnet",
   "chainName": "Bandchain",
-  "rpc": "http://rpc.laozi1.bandchain.org:80",
-  "rest": "https://laozi1.bandchain.org/api",
+  "rpc": [
+    {
+      "address": "http://rpc.laozi1.bandchain.org:80",
+      "provider": "bandprotocol"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://laozi1.bandchain.org/api",
+      "provider": "bandprotocol"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "http://rpc.laozi1.bandchain.org:80",
+      "rest": "https://laozi1.bandchain.org/api"
+    }
+  ],
   "bip44": {
     "coinType": 494
   },

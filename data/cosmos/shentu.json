@@ -1,8 +1,52 @@
 {
   "chainId": "shentu-2.2",
   "chainName": "Shentu",
-  "rpc": "https://shenturpc.certikpowered.info/",
-  "rest": "https://azuredragon.noopsbycertik.com/",
+  "rpc": [
+    {
+      "address": "https://shenturpc.certikpowered.info/",
+      "provider": "Shentu"
+    },
+    {
+      "address": "http://3.236.161.42:26657",
+      "provider": "Shentu"
+    },
+    {
+      "address": "http://54.236.61.32:26657",
+      "provider": "Shentu"
+    },
+    {
+      "address": "http://3.227.241.190:26657",
+      "provider": "Shentu"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://azuredragon.noopsbycertik.com/",
+      "provider": "Shentu"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://shenturpc.certikpowered.info/",
+      "rest": "https://azuredragon.noopsbycertik.com/"
+    },
+    {
+      "name": "Shentu 1",
+      "rpc": "http://3.236.161.42:26657",
+      "rest": "https://azuredragon.noopsbycertik.com/"
+    },
+    {
+      "name": "Shentu 2",
+      "rpc": "http://54.236.61.32:26657",
+      "rest": "https://azuredragon.noopsbycertik.com/"
+    },
+    {
+      "name": "Shentu 3",
+      "rpc": "http://3.227.241.190:26657",
+      "rest": "https://azuredragon.noopsbycertik.com/"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

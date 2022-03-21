@@ -1,8 +1,51 @@
 {
   "chainId": "bitcanna-1",
   "chainName": "Bitcanna",
-  "rpc": "https://rpc.bitcanna.io/",
-  "rest": "https://lcd.bitcanna.io",
+  "rpc": [
+    {
+      "address": "https://rpc.bitcanna.io/",
+      "provider": "bitcanna"
+    },
+    {
+      "address": "https://rpc.bitcanna.ezstaking.io/",
+      "provider": "ezstaking.io"
+    },
+    {
+      "address": "https://rpc-bitcanna.itastakers.com/",
+      "provider": "itastaker"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd.bitcanna.io",
+      "provider": "bitcanna"
+    },
+    {
+      "address": "https://lcd.bitcanna.ezstaking.io/",
+      "provider": "ezstaking.io"
+    },
+    {
+      "address": "https://lcd-bitcanna.itastakers.com/",
+      "provider": "itastaker"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.bitcanna.io/",
+      "rest": "https://lcd.bitcanna.io"
+    },
+    {
+      "name": "Ezstaking.io",
+      "rpc": "https://rpc.bitcanna.ezstaking.io/",
+      "rest": "https://lcd.bitcanna.ezstaking.io/"
+    },
+    {
+      "name": "Itastaker",
+      "rpc": "https://rpc-bitcanna.itastakers.com/",
+      "rest": "https://lcd-bitcanna.itastakers.com/"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

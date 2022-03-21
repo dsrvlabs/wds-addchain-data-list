@@ -1,8 +1,25 @@
 {
   "chainId": "irishub-1",
   "chainName": "irisnet",
-  "rpc": "https://rpc-iris.keplr.app",
-  "rest": "https://lcd-iris.keplr.app",
+  "rpc": [
+    {
+      "address": "https://rpc-iris.keplr.app",
+      "provider": "chainapsis"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-iris.keplr.app",
+      "provider": "chainapsis"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Chainapsis",
+      "rpc": "https://rpc-iris.keplr.app",
+      "rest": "https://lcd-iris.keplr.app"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

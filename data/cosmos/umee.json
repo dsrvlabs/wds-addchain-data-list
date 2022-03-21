@@ -1,8 +1,90 @@
 {
   "chainId": "umee-1",
   "chainName": "Umee",
-  "rpc": "https://rpc.aphrodite.main.network.umee.cc",
-  "rest": "https://api.aphrodite.main.network.umee.cc",
+  "rpc": [
+    {
+      "address": "https://rpc.aphrodite.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://rpc.apollo.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://rpc.artemis.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://rpc.athena.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://rpc.beaked.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://rpc.bottlenose.main.network.umee.cc",
+      "provider": "umee Foundation"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.aphrodite.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://api.apollo.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://api.artemis.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://api.athena.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://api.beaked.main.network.umee.cc",
+      "provider": "umee Foundation"
+    },
+    {
+      "address": "https://api.bottlenose.main.network.umee.cc",
+      "provider": "umee Foundation"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation Aphrodite",
+      "rpc": "https://rpc.aphrodite.main.network.umee.cc",
+      "rest": "https://api.aphrodite.main.network.umee.cc"
+    },
+    {
+      "name": "Foundation Apollo",
+      "rpc": "https://rpc.apollo.main.network.umee.cc",
+      "rest": "https://api.apollo.main.network.umee.cc"
+    },
+    {
+      "name": "Foundation Artemis",
+      "rpc": "https://rpc.artemis.main.network.umee.cc",
+      "rest": "https://api.artemis.main.network.umee.cc"
+    },
+    {
+      "name": "Foundation Athena",
+      "rpc": "https://rpc.athena.main.network.umee.cc",
+      "rest": "https://api.athena.main.network.umee.cc"
+    },
+    {
+      "name": "Foundation Beaked",
+      "rpc": "https://rpc.beaked.main.network.umee.cc",
+      "rest": "https://api.beaked.main.network.umee.cc"
+    },
+    {
+      "name": "Foundation Bottlenose",
+      "rpc": "https://rpc.bottlenose.main.network.umee.cc",
+      "rest": "https://api.bottlenose.main.network.umee.cc"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

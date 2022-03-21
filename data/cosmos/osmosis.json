@@ -1,8 +1,34 @@
 {
   "chainId": "osmosis-1",
   "chainName": "Osmosis",
-  "rpc": "https://osmosis.validator.network",
-  "rest": "https://lcd-osmosis.blockapsis.com",
+  "rpc": [
+    {
+      "address": "https://osmosis.validator.network/",
+      "provider": "validatornetwork"
+    },
+    {
+      "address": "https://rpc-osmosis.blockapsis.com",
+      "provider": "chainapsis"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-osmosis.blockapsis.com",
+      "provider": "chainapsis"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Chainapsis",
+      "rpc": "https://rpc-osmosis.blockapsis.com",
+      "rest": "https://lcd-osmosis.blockapsis.com"
+    },
+    {
+      "name": "Validatornetwork",
+      "rpc": "https://osmosis.validator.network/",
+      "rest": "https://lcd-osmosis.blockapsis.com"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

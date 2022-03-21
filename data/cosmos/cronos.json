@@ -1,8 +1,26 @@
 {
   "chainId": "cronosmainnet_25-1",
   "chainName": "cronos",
-  "rpc": "https://rpc-cronos.crypto.org/",
-  "rest": "https://rest-cronos.crypto.org/",
+  "rpc": [
+    {
+      "address": "https://rpc-cronos.crypto.org/",
+      "provider": "crypto.org"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://rest-cronos.crypto.org/",
+      "provider": "crypto.org"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc-cronos.crypto.org/",
+      "rest": "https://rest-cronos.crypto.org/"
+    }
+  ],
+
   "bip44": {
     "coinType": 60
   },

@@ -1,8 +1,25 @@
 {
   "chainId": "mainnet-3",
   "chainName": "Decentr",
-  "rpc": "https://poseidon.mainnet.decentr.xyz",
-  "rest": "https://rest.mainnet.decentr.xyz",
+  "rpc": [
+    {
+      "address": "https://ares.mainnet.decentr.xyz",
+      "provider": "decentr"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://rest.mainnet.decentr.xyz",
+      "provider": "decentr"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://ares.mainnet.decentr.xyz",
+      "rest": "https://rest.mainnet.decentr.xyz"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

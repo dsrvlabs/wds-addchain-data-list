@@ -1,8 +1,26 @@
 {
   "chainId": "carbon-1",
   "chainName": "Carbon",
-  "rpc": "https://tm-api.carbon.network",
-  "rest": "https://api.carbon.network",
+  "rpc": [
+    {
+      "address": "https://tm-api.carbon.network",
+      "provider": "switcheo-labs"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.carbon.network",
+      "provider": "switcheo-labs"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Switcheo-labs",
+      "rpc": "https://tm-api.carbon.network",
+      "rest": "https://api.carbon.network"
+    }
+  ],
+
   "bip44": {
     "coinType": 118
   },

@@ -1,8 +1,26 @@
 {
   "chainId": "chihuahua-1",
   "chainName": "Chihuahua",
-  "rpc": "https://rpc.chihuahua.wtf/",
-  "rest": "https://api.chihuahua.wtf/",
+  "rpc": [
+    {
+      "address": "https://rpc.chihuahua.wtf/",
+      "provider": "Chihuahua"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.chihuahua.wtf/",
+      "provider": "Chihuahua"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.chihuahua.wtf/",
+      "rest": "https://api.chihuahua.wtf/"
+    }
+  ],
+
   "bip44": {
     "coinType": 118
   },

@@ -1,8 +1,25 @@
 {
   "chainId": "bitsong-2b",
   "chainName": "Bitsong",
-  "rpc": "https://rpc-bitsong.itastakers.com",
-  "rest": "https://lcd-bitsong.itastakers.com",
+  "rpc": [
+    {
+      "address": "https://rpc-bitsong.itastakers.com",
+      "provider": "itastakers"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-bitsong.itastakers.com",
+      "provider": "itastakers"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Itastakers",
+      "rpc": "https://rpc-bitsong.itastakers.com",
+      "rest": "https://lcd-bitsong.itastakers.com"
+    }
+  ],
   "bip44": {
     "coinType": 639
   },

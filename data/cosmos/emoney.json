@@ -1,8 +1,38 @@
 {
   "chainId": "emoney-3",
   "chainName": "E-money",
-  "rpc": "https://emoney.validator.network",
-  "rest": "https://emoney.validator.network/api/",
+  "rpc": [
+    {
+      "address": "https://rpc-emoney.keplr.app",
+      "provider": "chainapsis"
+    },
+    {
+      "address": "https://emoney.validator.network",
+      "provider": "e-Money"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-emoney.keplr.app",
+      "provider": "chainapsis"
+    },
+    {
+      "address": "https://emoney.validator.network/api/",
+      "provider": "e-Money"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://emoney.validator.network",
+      "rest": "https://emoney.validator.network/api/"
+    },
+    {
+      "name": "Chainapsis",
+      "rpc": "https://rpc-emoney.keplr.app",
+      "rest": "https://lcd-emoney.keplr.app"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

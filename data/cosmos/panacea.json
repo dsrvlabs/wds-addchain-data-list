@@ -1,8 +1,25 @@
 {
   "chainId": "panacea-3",
   "chainName": "Panacea",
-  "rpc": "https://rpc.gopanacea.org",
-  "rest": "https://api.gopanacea.org",
+  "rpc": [
+    {
+      "address": "https://rpc.gopanacea.org",
+      "provider": "medibloc"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.gopanacea.org",
+      "provider": "medibloc"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.gopanacea.org",
+      "rest": "https://api.gopanacea.org"
+    }
+  ],
   "bip44": {
     "coinType": 371
   },

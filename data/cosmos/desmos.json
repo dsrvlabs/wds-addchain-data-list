@@ -1,8 +1,25 @@
 {
   "chainId": "desmos-mainnet",
   "chainName": "Desmos",
-  "rpc": "https://rpc.mainnet.desmos.network",
-  "rest": "https://api.mainnet.desmos.network",
+  "rpc": [
+    {
+      "address": "https://rpc.mainnet.desmos.network",
+      "provider": "desmos"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.mainnet.desmos.network",
+      "provider": "desmos"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.mainnet.desmos.network",
+      "rest": "https://api.mainnet.desmos.network"
+    }
+  ],
   "bip44": {
     "coinType": 852
   },

@@ -1,8 +1,25 @@
 {
   "chainId": "likecoin-mainnet-2",
   "chainName": "Likecoin",
-  "rpc": "https://mainnet-node.like.co/rpc/",
-  "rest": "https://mainnet-node.like.co",
+  "rpc": [
+    {
+      "address": "https://mainnet-node.like.co/rpc/",
+      "provider": "likecoin"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://mainnet-node.like.co",
+      "provider": "likecoin"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://mainnet-node.like.co/rpc/",
+      "rest": "https://mainnet-node.like.co"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

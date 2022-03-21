@@ -1,8 +1,23 @@
 {
   "chainId": "agoric-3",
   "chainName": "Agoric",
-  "rpc": "https://main.rpc.agoric.net:443",
-  "rest": "https://main.api.agoric.net:443",
+  "rpc": [
+    {
+      "address": "https://main.rpc.agoric.net:443"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://main.api.agoric.net:443"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://main.rpc.agoric.net:443",
+      "rest": "https://main.api.agoric.net:443"
+    }
+  ],
   "bip44": {
     "coinType": 564
   },

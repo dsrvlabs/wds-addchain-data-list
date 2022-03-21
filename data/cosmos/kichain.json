@@ -1,8 +1,25 @@
 {
   "chainId": "kichain-2",
   "chainName": "Kichain",
-  "rpc": "https://rpc-mainnet.blockchain.ki",
-  "rest": "https://api-mainnet.blockchain.ki",
+  "rpc": [
+    {
+      "address": "https://rpc-mainnet.blockchain.ki",
+      "provider": "kifoundation"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api-mainnet.blockchain.ki",
+      "provider": "kifoundation"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc-mainnet.blockchain.ki",
+      "rest": "https://api-mainnet.blockchain.ki"
+    }
+  ],
   "bip44": {
     "coinType": 118
   },

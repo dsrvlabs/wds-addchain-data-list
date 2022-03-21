@@ -1,8 +1,34 @@
 {
   "chainId": "crypto-org-chain-mainnet-1",
   "chainName": "cryptoorgchain",
-  "rpc": "https://mainnet.crypto.org/",
-  "rest": "https://lcd-crypto-org.keplr.app/",
+  "rpc": [
+    {
+      "address": "https://mainnet.crypto.org/",
+      "provider": "crypto.org"
+    },
+    {
+      "address": "https://rpc-crypto-org.keplr.app/",
+      "provider": "chainapsis"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://lcd-crypto-org.keplr.app/",
+      "provider": "chainapsis"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://mainnet.crypto.org/",
+      "rest": "https://lcd-crypto-org.keplr.app/"
+    },
+    {
+      "name": "Chainapsis",
+      "rpc": "https://rpc-crypto-org.keplr.app/",
+      "rest": "https://lcd-crypto-org.keplr.app/"
+    }
+  ],
   "bip44": {
     "coinType": 394
   },

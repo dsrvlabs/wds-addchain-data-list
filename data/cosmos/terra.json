@@ -1,8 +1,25 @@
 {
   "chainId": "columbus-5",
   "chainName": "Terra",
-  "rpc": "https://terra-rpc.easy2stake.com:443",
-  "rest": "https://blockdaemon-terra-lcd.api.bdnodes.net:1317",
+  "rpc": [
+    {
+      "address": "https://terra-rpc.easy2stake.com:443",
+      "provider": "Easy2stake"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://blockdaemon-terra-lcd.api.bdnodes.net:1317",
+      "provider": "Blockdaemon"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Easy2stake & Blockdaemon",
+      "rpc": "https://terra-rpc.easy2stake.com:443",
+      "rest": "https://blockdaemon-terra-lcd.api.bdnodes.net:1317"
+    }
+  ],
   "bip44": {
     "coinType": 330
   },

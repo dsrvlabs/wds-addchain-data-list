@@ -1,8 +1,25 @@
 {
   "chainId": "pio-mainnet-1",
   "chainName": "Provenance",
-  "rpc": "https://rpc.provenance.io/",
-  "rest": "https://api.provenance.io",
+  "rpc": [
+    {
+      "address": "https://rpc.provenance.io/",
+      "provider": "figure"
+    }
+  ],
+  "rest": [
+    {
+      "address": "https://api.provenance.io",
+      "provider": "figure"
+    }
+  ],
+  "provider": [
+    {
+      "name": "Foundation",
+      "rpc": "https://rpc.provenance.io/",
+      "rest": "https://api.provenance.io"
+    }
+  ],
   "bip44": {
     "coinType": 505
   },
