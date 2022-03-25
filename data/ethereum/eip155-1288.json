@@ -1,10 +1,7 @@
 {
   "name": "Moonrock",
   "chain": "MOON",
-  "rpc": [
-    "https://rpc.api.moonrock.moonbeam.network",
-    "wss://wss.api.moonrock.moonbeam.network"
-  ],
+  "rpc": ["wss://wss.api.moonrock.moonbeam.network"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Rocs",

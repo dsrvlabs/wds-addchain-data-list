@@ -2,10 +2,7 @@
   "name": "Velas EVM Mainnet",
   "chain": "Velas",
   "icon": "velas",
-  "rpc": [
-    "https://evmexplorer.velas.com/rpc",
-    "https://explorer.velas.com/rpc"
-  ],
+  "rpc": ["https://explorer.velas.com/rpc"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Velas",
@@ -16,9 +13,11 @@
   "shortName": "vlx",
   "chainId": 106,
   "networkId": 106,
-  "explorers": [{
-    "name": "Velas Explorer",
-    "url": "https://evmexplorer.velas.com",
-    "standard": "EIP3091"
-  }]
+  "explorers": [
+    {
+      "name": "Velas Explorer",
+      "url": "https://evmexplorer.velas.com",
+      "standard": "EIP3091"
+    }
+  ]
 }
