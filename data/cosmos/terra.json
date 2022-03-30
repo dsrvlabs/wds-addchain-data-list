@@ -3,6 +3,10 @@
   "chainName": "Terra",
   "rpc": [
     {
+      "address": "https://terra-mainnet-rpc.allthatnode.com:26657/zjMks05a02XU78SrnJfSZtXotpy8uK2b",
+      "provider": "All That Node"
+    },
+    {
       "address": "https://terra-rpc.easy2stake.com:443",
       "provider": "Easy2stake"
     }
