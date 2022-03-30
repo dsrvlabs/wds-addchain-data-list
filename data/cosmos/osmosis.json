@@ -19,6 +19,12 @@
   ],
   "provider": [
     {
+      "name": "All That Node",
+      "rpc": "https://osmosis-mainnet-rpc.allthatnode.com:26657/l6FrhmRJpGyJQnnt6RchlWWlZFL4OhLh",
+      "rest": "https://osmosis-mainnet-rpc.allthatnode.com:1317/l6FrhmRJpGyJQnnt6RchlWWlZFL4OhLh"
+    },
+
+    {
       "name": "Chainapsis",
       "rpc": "https://rpc-osmosis.blockapsis.com",
       "rest": "https://lcd-osmosis.blockapsis.com"

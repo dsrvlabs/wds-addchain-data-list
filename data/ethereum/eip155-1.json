@@ -3,6 +3,7 @@
   "chain": "ETH",
   "icon": "ethereum",
   "rpc": [
+    "https://ethereum-mainnet-rpc.allthatnode.com/96f6FC0aavSbTD61VUwkjgamsY3SxmPb",
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}",
     "https://cloudflare-eth.com"
