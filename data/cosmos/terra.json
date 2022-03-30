@@ -19,6 +19,12 @@
   ],
   "provider": [
     {
+      "name": "All That Node",
+      "rpc": "https://terra-mainnet-rpc.allthatnode.com:26657/zjMks05a02XU78SrnJfSZtXotpy8uK2b",
+      "rest": "https://terra-mainnet-rpc.allthatnode.com:1317/zjMks05a02XU78SrnJfSZtXotpy8uK2b"
+    },
+
+    {
       "name": "Easy2stake & Blockdaemon",
       "rpc": "https://terra-rpc.easy2stake.com:443",
       "rest": "https://blockdaemon-terra-lcd.api.bdnodes.net:1317"
