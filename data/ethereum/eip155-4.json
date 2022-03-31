@@ -3,7 +3,7 @@
   "title": "Ethereum Testnet Rinkeby",
   "chain": "ETH",
   "rpc": [
-    "https://ethereum-rinkeby-rpc.allthatnode.com/96f6FC0aavSbTD61VUwkjgamsY3SxmPb",
+    "https://ethereum-rinkeby-rpc.allthatnode.com",
     "https://rinkeby.infura.io/v3/${INFURA_API_KEY}",
     "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
   ],

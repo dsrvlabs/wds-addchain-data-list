@@ -9,7 +9,7 @@
     "symbol": "CELO",
     "decimals": 18
   },
-  "rpc": ["https://celo-mainnet-rpc.allthatnode.com/EYIyPA1LD8h2t3P7POiLaRLdBW2Duu5U", "https://forno.celo.org", "wss://forno.celo.org/ws"],
+  "rpc": ["https://celo-mainnet-rpc.allthatnode.com", "https://forno.celo.org", "wss://forno.celo.org/ws"],
   "faucets": ["https://free-online-app.com/faucet-for-eth-evm-chains/"],
   "infoURL": "https://docs.celo.org/",
 

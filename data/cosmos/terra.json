@@ -3,7 +3,7 @@
   "chainName": "Terra",
   "rpc": [
     {
-      "address": "https://terra-mainnet-rpc.allthatnode.com:26657/zjMks05a02XU78SrnJfSZtXotpy8uK2b",
+      "address": "https://terra-mainnet-rpc.allthatnode.com:26657",
       "provider": "All That Node"
     },
     {
@@ -20,8 +20,8 @@
   "provider": [
     {
       "name": "All That Node",
-      "rpc": "https://terra-mainnet-rpc.allthatnode.com:26657/zjMks05a02XU78SrnJfSZtXotpy8uK2b",
-      "rest": "https://terra-mainnet-rpc.allthatnode.com:1317/zjMks05a02XU78SrnJfSZtXotpy8uK2b"
+      "rpc": "https://terra-mainnet-rpc.allthatnode.com:26657",
+      "rest": "https://terra-mainnet-rpc.allthatnode.com:1317"
     },
 
     {

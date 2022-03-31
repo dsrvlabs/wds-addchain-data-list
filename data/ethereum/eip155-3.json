@@ -3,7 +3,7 @@
   "title": "Ethereum Testnet Ropsten",
   "chain": "ETH",
   "rpc": [
-    "https://ethereum-ropsten-rpc.allthatnode.com/96f6FC0aavSbTD61VUwkjgamsY3SxmPb",
+    "https://ethereum-ropsten-rpc.allthatnode.com",
     "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
     "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
   ],

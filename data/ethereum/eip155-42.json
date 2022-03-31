@@ -3,7 +3,7 @@
   "title": "Ethereum Testnet Kovan",
   "chain": "ETH",
   "rpc": [
-    "https://ethereum-kovan-rpc.allthatnode.com/96f6FC0aavSbTD61VUwkjgamsY3SxmPb",
+    "https://ethereum-kovan-rpc.allthatnode.com",
     "https://kovan.poa.network",
     "https://kovan.infura.io/v3/${INFURA_API_KEY}",
     "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}",

@@ -24,8 +24,8 @@
   "provider": [
     {
       "name": "All That Node",
-      "rpc": "https://cosmos-mainnet-rpc.allthatnode.com:26657/NlgqjRcntD7gdHOuxHzxSlcOR3GJlNay",
-      "rest": "https://cosmos-mainnet-rpc.allthatnode.com:1317/NlgqjRcntD7gdHOuxHzxSlcOR3GJlNay"
+      "rpc": "https://cosmos-mainnet-rpc.allthatnode.com:26657",
+      "rest": "https://cosmos-mainnet-rpc.allthatnode.com:1317"
     },
     {
       "name": "Chainapsis",

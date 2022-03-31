@@ -3,7 +3,7 @@
   "title": "Ethereum Testnet Görli",
   "chain": "ETH",
   "rpc": [
-    "https://ethereum-goerli-rpc.allthatnode.com/96f6FC0aavSbTD61VUwkjgamsY3SxmPb",
+    "https://ethereum-goerli-rpc.allthatnode.com",
     "https://goerli.infura.io/v3/${INFURA_API_KEY}",
     "wss://goerli.infura.io/v3/${INFURA_API_KEY}",
     "https://rpc.goerli.mudit.blog/"
