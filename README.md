@@ -19,21 +19,21 @@ When you add `.json`, It will be automatically reflected on the [our AddChain Si
 ```Typescript
 
 interface Currency {
-	name: string;
+  name: string;
   symbol: string;
   decimals: number;
-	address?: string;
+  address?: string;
 }
 
 interface RpcUrl {
-	providerName: string;
-	url: string;
+  providerName: string;
+  url: string;
 }
 
 interface ExplorerUrl {
-	name: string;
-	url: string;
-	standard?: string;
+  name: string;
+  url: string;
+  standard?: string;
 }
 
 interface AddChainParameter {
@@ -41,10 +41,10 @@ interface AddChainParameter {
   chainName?: string;
   rpcUrls?: RpcUrl[];
   nativeCurrencies?: Currency[];
-	feeCurrencies?: Currency[];
+  feeCurrencies?: Currency[];
   blockExplorerUrls?: ExplorerUrl[];
   iconUrls?: string[];
-	slip44?: string;
+  slip44?: string;
 }
 ```
 
