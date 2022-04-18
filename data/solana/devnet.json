@@ -1,5 +1,5 @@
 {
-  "chainId": "3",
+  "chainId": "devnet",
   "chainName": "Solana Devnet",
   "rpcUrls": [
     {
