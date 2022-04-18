@@ -1,0 +1,32 @@
+{
+  "chainId": "2",
+  "chainName": "Solana Testnet",
+  "rpcUrls": [
+    {
+      "providerName": "Foundation",
+      "url": "https://api.testnet.solana.com"
+    }
+  ],
+  "nativeCurrencies": [
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 18
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 18
+    }
+  ],
+  "blockExplorerUrls": [
+    {
+      "name": "Solana Testnet Explorer",
+      "address": "https://explorer.solana.com/?cluster=testnet"
+    }
+  ],
+  "iconUrls": [],
+  "slip44": "501"
+}
