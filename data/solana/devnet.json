@@ -28,7 +28,7 @@
   "blockExplorerUrls": [
     {
       "name": "Solana Devnet Explorer",
-      "address": "https://explorer.solana.com/?cluster=devnet"
+      "url": "https://explorer.solana.com/?cluster=devnet"
     }
   ],
   "iconUrls": [],

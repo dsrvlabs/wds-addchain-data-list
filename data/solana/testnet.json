@@ -24,7 +24,7 @@
   "blockExplorerUrls": [
     {
       "name": "Solana Testnet Explorer",
-      "address": "https://explorer.solana.com/?cluster=testnet"
+      "url": "https://explorer.solana.com/?cluster=testnet"
     }
   ],
   "iconUrls": [],

@@ -32,7 +32,7 @@
   "blockExplorerUrls": [
     {
       "name": "Solana Explorer",
-      "address": "https://explorer.solana.com/"
+      "url": "https://explorer.solana.com/"
     }
   ],
   "iconUrls": [],
