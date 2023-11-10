@@ -2,7 +2,13 @@
   "name": "Klaytn Mainnet Cypress",
   "chain": "KLAY",
   "rpc": [
-    "https://public-node-api.klaytnapi.com/v1/cypress"
+    "https://public-en-cypress.klaytn.net",
+    "https://klaytn-mainnet-rpc.allthatnode.com:8551",
+    "https://klaytn.blockpi.network/v1/rpc/public",
+    "https://klaytn-rpc.gateway.pokt.network",
+    "https://rpc.ankr.com/klaytn",
+    "https://klaytn.api.onfinality.io/public",
+    "https://1rpc.io/klay"
   ],
   "faucets": [],
   "nativeCurrency": {
@@ -10,14 +16,21 @@
     "symbol": "KLAY",
     "decimals": 18
   },
-  "infoURL": "https://www.klaytn.com/",
+  "infoURL": "https://www.klaytn.foundation",
   "shortName": "Cypress",
   "chainId": 8217,
   "networkId": 8217,
   "slip44": 8217,
-  "explorers": [{
-    "name": "Klaytnscope",
-    "url": "https://scope.klaytn.com",
-    "standard": "none"
-  }]
+  "explorers": [
+    {
+      "name": "Klaytnscope",
+      "url": "https://scope.klaytn.com",
+      "standard": "none"
+    },
+    {
+      "name": "Klaytnfinder",
+      "url": "https://www.klaytnfinder.io",
+      "standard": "none"
+    }
+]
 }
